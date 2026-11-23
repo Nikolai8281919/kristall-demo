@@ -2,7 +2,7 @@
 // Страница берётся из сети, а при отсутствии интернета из кэша.
 // Запросы к базе данных (Supabase) и любым другим сайтам сюда НЕ попадают:
 // данные заявок не кэшируются и всегда свежие.
-var CACHE = "uborka-doma-v2";
+var CACHE = "uborka-doma-v3";
 var CORE = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png", "three.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"];
 
